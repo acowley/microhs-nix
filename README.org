@@ -1,0 +1,11 @@
+* Summary
+[[https://nixos.org][nix]] packaging for the [[https://github.com/augustss/MicroHs][MicroHs]] Haskell compiler
+
+* Usage
+This repository defines a nix [[https://zero-to-nix.com/concepts/flakes][flake]] that you can use as an input, or run as-is.
+
+You can run the =mhs= interpreter with,
+
+#+begin_src shell
+nix run github:acowley/microhs-nix
+#+end_src
